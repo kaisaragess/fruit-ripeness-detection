@@ -1,0 +1,30 @@
+# Python Virtual Environments
+venv/
+ENV/
+env/
+.venv/
+
+# Environment Variables & Sensitif Data
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local Uploads (Static uploaded images)
+app/static/uploads/*
+!app/static/uploads/.gitkeep
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
