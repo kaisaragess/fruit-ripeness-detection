@@ -65,14 +65,14 @@ Karena file `.env` yang berisi kode rahasia diabaikan oleh Git, Anda perlu membu
 
 ```env
 # Roboflow API Configuration
-ROBOFLOW_API_KEY=0b1jJp0GBdd7Obqtewf2
+ROBOFLOW_API_KEY=YOUR_ROBOFLOW_API_KEY
 ROBOFLOW_API_URL=https://serverless.roboflow.com
 ROBOFLOW_WORKSPACE=15240772s-workspace-v3t3g
 ROBOFLOW_WORKFLOW_ID=detect-count-and-visualize-3
 
 # Flask & JWT Security Keys
-SECRET_KEY=9b827efc9281a021bc829cd128a38719
-JWT_SECRET_KEY=738dfc10928bb8c983a91c28c8efd918
+SECRET_KEY=YOUR_FLASK_SECRET_KEY
+JWT_SECRET_KEY=YOUR_JWT_SECRET_KEY
 
 # Database Configuration (MongoDB Lokal)
 MONGO_URI=mongodb://localhost:27017/fruit_db
